@@ -1,14 +1,19 @@
 html, body {
   height: 100%;
+  background-image: linear-gradient(to bottom right, #232526, #414345);
 }
 
 #root {
   height: 100%;
+  position: relative;
 }
 
 .App {
-  height: 100%;
-  background-image: linear-gradient(to bottom right, #232526, #414345);
+  position: absolute;
+  margin: auto;
+  top: 0; bottom: 0; left: 0; right: 0;
+  height: 400px;
+  background-color: grey;
 }
 
 .Sidebar {
@@ -23,8 +28,44 @@ html, body {
   margin: 8px 48px 8px 48px;
   height: 48px;
   line-height: 50px;
-  background-color: white;
+  background-color: #414345;
   border-radius: 8px;
+}
+
+.Sidebar-nav-card:hover {
+  cursor: pointer;
+}
+
+.Sidebar-nav-card-icon {
+  display: inline-block;
+  float: left;
+  margin: 0px 8px 0px 8px;
+}
+
+.Sidebar-nav-card-text {
+  display: inline-block;
+}
+
+.Sidebar-links {
+  text-align: center;
+  margin-top: 25%;
+  height: 25%;
+}
+
+.Sidebar-links-icon {
+  display: inline-block;
+  margin: 8px;
+  height: 32px;
+  line-height: 32px;
+  width: 32px;
+  border-radius: 8px;
+  background-color: #414345;
+  box-shadow: 0 2px 4px 0 black;
+}
+
+.Sidebar-links-icon:hover {
+  background-color: #232526;
+  cursor: pointer;
 }
 
 .Main {
