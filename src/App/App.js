@@ -58,12 +58,15 @@ const App = () => {
         <div className="Sidebar-links">
           <div className="Sidebar-links-icon">
             <GrDocumentText />
+            <span className="Sidebar-links-tooltip">Resume</span>
           </div>
           <div className="Sidebar-links-icon">
             <GrLinkedin />
+            <span className="Sidebar-links-tooltip">LinkedIn</span>
           </div>
           <div className="Sidebar-links-icon">
             <GrGithub />
+            <span className="Sidebar-links-tooltip">GitHub</span>
           </div>
         </div>
       </div>

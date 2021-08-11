@@ -84,6 +84,17 @@ html, body {
   cursor: pointer;
 }
 
+.Sidebar-links-icon:hover .Sidebar-links-tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.Sidebar-links-tooltip {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3;
+}
+
 .Main {
   display: inline-block;
 }
