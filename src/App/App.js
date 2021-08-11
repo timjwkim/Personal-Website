@@ -4,7 +4,8 @@ import Home from '../Home/Home';
 import Experience from '../Experience/Experience';
 import Projects from '../Projects/Projects';
 import { BiHome, BiBookOpen, BiBox } from 'react-icons/bi';
-import { GrDocumentText, GrLinkedin, GrGithub } from 'react-icons/gr';
+import { GrLocation, GrDocumentText, GrLinkedin, GrGithub } from 'react-icons/gr';
+import { CgProfile } from 'react-icons/cg';
 
 const App = () => {
   const [screen, setScreen] = React.useState('Home');
@@ -23,7 +24,19 @@ const App = () => {
     <div className="App">
       <div className="Sidebar">
         <div className="Sidebar-profile">
-          This is my profile
+          <div className="Sidebar-profile-img">
+            <CgProfile />
+          </div>
+          <div className="Sidebar-profile-title">
+            Timothy Kim
+          </div>
+          <div className="Sidebar-profile-desc">
+            Aspiring Software Engineer
+          </div>
+          <div className="Sidebar-profile-location">
+            <GrLocation />
+            Ann Arbor, MI
+          </div>
         </div>
         <div className="Sidebar-nav">
           <div className="Sidebar-nav-card"

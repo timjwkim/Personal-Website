@@ -13,7 +13,7 @@ html, body {
   margin: auto;
   top: 0; bottom: 0; left: 0; right: 0;
   height: 400px;
-  background-color: grey;
+  width: 900px;
 }
 
 .Sidebar {
@@ -22,6 +22,23 @@ html, body {
   border-right: 1px solid black;
   display: inline-block;
   float: left;
+}
+
+.Sidebar-profile {
+  text-align: center;
+  margin: 16px 0 32px 0;
+}
+
+.Sidebar-profile-title {
+  font-weight: bold;
+}
+
+.Sidebar-profile-desc {
+  color: #414345;
+}
+
+.Sidebar-nav {
+  margin: 32px 0 32px 0;
 }
 
 .Sidebar-nav-card {
@@ -48,8 +65,7 @@ html, body {
 
 .Sidebar-links {
   text-align: center;
-  margin-top: 25%;
-  height: 25%;
+  margin: 32px 0 32px 0;
 }
 
 .Sidebar-links-icon {
