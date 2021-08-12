@@ -1,0 +1,35 @@
+.Experience {
+  width: 500px;
+  margin: 32px 32px 32px 32px;
+}
+
+.Experience-title {
+  font-weight: bold;
+}
+
+.Experience-card {
+  width: 500px;
+  background-color: grey;
+  border-radius: 8px;
+  margin: 8px 0 8px 0;
+  padding: 8px;
+}
+
+.Experience-card-title {
+  font-weight: bold;
+  display: inline-block;
+  float: left;
+}
+
+.Experience-card-date {
+  display: inline-block;
+  float: right;
+}
+
+.Experience-card-location {
+  display: block;
+}
+
+.Experience-card-subtitle {
+
+}
