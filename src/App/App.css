@@ -1,6 +1,6 @@
 html, body {
   height: 100%;
-  background-image: linear-gradient(to bottom right, #232526, #414345);
+  background-image: linear-gradient(to bottom right, #F4F9F9, #CCF2F4);
 }
 
 #root {
@@ -45,7 +45,7 @@ html, body {
   margin: 8px 48px 8px 48px;
   height: 48px;
   line-height: 50px;
-  background-color: #414345;
+  background-color: #A4EBF3;
   border-radius: 8px;
 }
 
