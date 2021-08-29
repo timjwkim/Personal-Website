@@ -14,7 +14,7 @@ const Title = () => {
         </div>
       </div>
       <div className="Title-sub">
-        Aspiring Software Engineer and Full-Stack Developer
+        Aspiring Software Engineer and Full-Stack Developer.
       </div>
     </div>
   )

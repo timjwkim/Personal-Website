@@ -1,4 +1,23 @@
+.Title-header {
+  height: 35px;
+  line-height: 35px;
+  padding: 8px;
+  margin: 8px;
+}
+
 .Title-header-name {
   float: left;
   margin-right: 16px;
+  font-size: 1.8em;
+}
+
+.Title-header-icon {
+  font-size: 1.1em;
+  color: #696969;
+}
+
+.Title-sub {
+  padding: 8px;
+  margin: 8px;
+  font-size: 1.2em;
 }
