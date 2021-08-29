@@ -1,28 +1,34 @@
 import React from 'react';
 import './App.css';
-import Home from '../Home/Home';
-import Experience from '../Experience/Experience';
-import Projects from '../Projects/Projects';
-import { BiHome, BiBookOpen, BiBox } from 'react-icons/bi';
-import { GrLocation, GrDocumentText, GrLinkedin, GrGithub } from 'react-icons/gr';
-import { CgProfile } from 'react-icons/cg';
+import Title from '../Title/Title';
+import Main from '../Main/Main';
+import Nav from '../Nav/Nav';
+// import Home from '../Home/Home';
+// import Experience from '../Experience/Experience';
+// import Projects from '../Projects/Projects';
+// import { BiHome, BiBookOpen, BiBox } from 'react-icons/bi';
+// import { GrLocation, GrDocumentText, GrLinkedin, GrGithub } from 'react-icons/gr';
+// import { CgProfile } from 'react-icons/cg';
 
 const App = () => {
-  const [screen, setScreen] = React.useState('Home');
-
-  const Display = () => {
-    if (screen === 'Home') {
-      return (<Home />);
-    } else if (screen === 'Experience') {
-      return (<Experience />);
-    } else {
-      return (<Projects />);
-    }
-  }
+  // const [screen, setScreen] = React.useState('Home');
+  //
+  // const Display = () => {
+  //   if (screen === 'Home') {
+  //     return (<Home />);
+  //   } else if (screen === 'Experience') {
+  //     return (<Experience />);
+  //   } else {
+  //     return (<Projects />);
+  //   }
+  // }
 
   return (
     <div className="App">
-      <div className="Sidebar">
+      <Title />
+      <Main />
+      <Nav />
+      {/*<div className="Sidebar">
         <div className="Sidebar-profile">
           <div className="Sidebar-profile-img">
             <CgProfile />
@@ -69,10 +75,7 @@ const App = () => {
             <span className="Sidebar-links-tooltip">GitHub</span>
           </div>
         </div>
-      </div>
-      <div className="Main">
-        {Display()}
-      </div>
+      </div> */}
     </div>
   );
 }
