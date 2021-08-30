@@ -1,6 +1,7 @@
 .Main {
   padding: 8px;
   margin: 8px;
+  line-height: 1.6;
 }
 
 .Main-text {
@@ -8,7 +9,27 @@
   margin: 8px;
 }
 
+.Main-link {
+  border-bottom: 2px solid black;
+}
+
+.Main-text span {
+  font-size: 0.8em;
+}
+
+.Main-link:hover {
+  cursor: pointer;
+}
+
 .Main-sub {
   padding: 8px;
   margin: 8px;
+}
+
+.Main-sub span {
+  font-size: 1em;
+}
+
+.Main-sub span:hover {
+  cursor: pointer;
 }
