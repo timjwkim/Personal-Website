@@ -10,7 +10,7 @@ const Title = () => {
           Timothy Kim
         </div>
         <div className="Title-header-icon">
-          <ImLocation2 /> Ann Arbor, MI
+          <ImLocation2 /> <b>Ann Arbor, MI</b>
         </div>
       </div>
       <div className="Title-sub">

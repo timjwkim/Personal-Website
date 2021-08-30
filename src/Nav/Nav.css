@@ -1,0 +1,15 @@
+.Nav {
+  margin: 8px;
+  padding: 8px;
+}
+
+.Nav-link {
+  margin: 8px;
+  padding: 8px;
+  display: inline-block;
+}
+
+.Nav-link a {
+  font-weight: bold;
+  color: black;
+}
