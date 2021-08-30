@@ -13,6 +13,13 @@
   border-bottom: 2px solid black;
 }
 
+.Main-text a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+}
+
 .Main-text span {
   font-size: 0.8em;
 }

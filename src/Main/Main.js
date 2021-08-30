@@ -29,7 +29,10 @@ const Main = () => {
     return (
       <div className="Main">
         <div className="Main-text">
-          <b className="Main-link">University of Michigan</b> <span><i>(exp. graduation Dec 2021)</i></span>
+          <a href="https://umich.edu" target="_blank" rel="noreferrer">
+            University of Michigan
+          </a>
+          <span> <i>(exp. graduation Dec. 2021)</i></span>
         </div>
         <div className="Main-sub">
           Relevant Coursework: Data Structures and Algorithms, Software
@@ -44,7 +47,10 @@ const Main = () => {
     return (
       <div className="Main">
         <div className="Main-text">
-          <b className="Main-link">University of Michigan ITS</b> <span><i>(Nov. 2019 - Present)</i></span>
+          <a href="https://its.umich.edu" target="_blank" rel="noreferrer">
+            University of Michigan ITS
+          </a>
+          <span> <i>(Nov. 2019 - Present)</i></span>
         </div>
         <div className="Main-sub">
           Provide technical support to customers and perform maintenance to network
@@ -59,7 +65,10 @@ const Main = () => {
     return (
       <div className="Main">
         <div className="Main-text">
-          <b className="Main-link">Expedia Group</b> <span><i>(Summer 2021)</i></span>
+          <a href="https://www.expediagroup.com/" target="_blank" rel="noreferrer">
+            Expedia Group
+          </a>
+          <span> <i>(Summer 2021)</i></span>
         </div>
         <div className="Main-sub">
           Built the <b><i>Datahub Health Dashboard</i></b> using React, ES, and
