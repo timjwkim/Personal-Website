@@ -37,7 +37,8 @@ const Main = () => {
         <div className="Main-sub">
           Relevant Coursework: Data Structures and Algorithms, Software
           Engineering, Web Systems, Mobile App Development for Entrepreneurs, User
-          Interface Development, Introduction to Artificial Intelligence. <span><IoReturnDownBack onClick={() => {setScreen('Home')}}/></span>
+          Interface Development, Introduction to Artificial Intelligence.
+          <span> <IoReturnDownBack onClick={() => {setScreen('Home')}}/></span>
         </div>
       </div>
     );
@@ -55,7 +56,8 @@ const Main = () => {
         <div className="Main-sub">
           Provide technical support to customers and perform maintenance to network
           devices and other technical equipment deployed at the university, troubleshooting
-          any hardware and software problems. <span><IoReturnDownBack onClick={() => {setScreen('Home')}}/></span>
+          any hardware and software problems.
+          <span> <IoReturnDownBack onClick={() => {setScreen('Home')}}/></span>
         </div>
       </div>
     );
@@ -73,7 +75,8 @@ const Main = () => {
         <div className="Main-sub">
           Built the <b><i>Datahub Health Dashboard</i></b> using React, ES, and
           GraphQL and supported the Datahub team by handling feature implementation,
-          UI design change, and minor bug fix tickets. <span><IoReturnDownBack onClick={() => {setScreen('Home')}}/></span>
+          UI design change, and minor bug fix tickets.
+          <span> <IoReturnDownBack onClick={() => {setScreen('Home')}}/></span>
         </div>
       </div>
     );
