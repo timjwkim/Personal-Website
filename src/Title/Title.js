@@ -7,14 +7,14 @@ const Title = () => {
     <div className="Title">
       <div className="Title-header">
         <div className="Title-header-name">
-          <b>Timothy Kim</b>
+          Timothy Kim
         </div>
         <div className="Title-header-icon">
           <ImLocation2 /> Ann Arbor, MI
         </div>
       </div>
       <div className="Title-sub">
-        Aspiring Software Engineer and Full-Stack Developer.
+        Software Engineer and Full-Stack Developer.
       </div>
     </div>
   )
