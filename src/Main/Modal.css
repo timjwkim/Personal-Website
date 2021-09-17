@@ -1,0 +1,44 @@
+.Modal {
+  padding: 8px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  position: fixed;
+  bottom: 20%;
+}
+
+.Modal-close {
+  float: right;
+  margin: 8px 8px 0 0;
+}
+
+.Modal-close:hover {
+  cursor: pointer;
+}
+
+.Modal-text {
+  margin: 8px 0 8px 0;
+  margin-left: 8px;
+}
+
+.Modal-text a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+  transition: border-color 200ms ease;
+}
+
+.Modal-text a:hover {
+  border-color: #DCDCDC;
+  color: #555555;
+}
+
+.Modal-class {
+  margin: 8px 0 8px 8px;
+}
+
+.Modal-sub {
+  width: 592px;
+  margin: 0 0 8px 8px;
+}

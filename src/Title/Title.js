@@ -1,10 +1,13 @@
 import React from 'react';
 import './Title.css';
 import { ImLocation2 } from 'react-icons/im';
+import { useSpring, animated } from 'react-spring';
 
 const Title = () => {
+  const props = useSpring({ to: { opacity: 1 }, from: { opacity: 0 }, delay: 600 });
+
   return (
-    <div className="Title">
+    <animated.div style={props} className="Title">
       <div className="Title-header">
         <div className="Title-header-name">
           Timothy Kim
@@ -16,7 +19,7 @@ const Title = () => {
       <div className="Title-sub">
         Software Engineer and Full-Stack Developer.
       </div>
-    </div>
+    </animated.div>
   )
 }
 
