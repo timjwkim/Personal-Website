@@ -12,7 +12,7 @@ const Nav = () => {
         <a href="mailto: timjwkim@umich.edu">Email</a>
       </div>
       <div className="Nav-link">
-        <a href={Resume} target="_blank" rel="noreferrer">Resume</a>
+        <a href={Resume} target="_blank" rel="noopener noreferrer">Resume</a>
       </div>
       <div className="Nav-link">
         <a href="https://linkedin.com/in/timothy-j-kim" target="_blank" rel="noreferrer">LinkedIn</a>
